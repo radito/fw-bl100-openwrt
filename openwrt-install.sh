@@ -64,7 +64,7 @@ echo "95ed514e89bace9726142cde060d9c59"  > /tmp/checksum_breed
     echo -e "-------------------------------------------------------------\n"
 
     echo -e "Installing OpenWRT to Flash Memory ...\n"
-    mtd_write -o 0 -l \`wc -c /tmp/openwrt.bin\` write /tmp/openwrt.bin Kernel
+    mtd_write write /tmp/openwrt.bin Kernel
 
     echo -e "Installing Breed to Flash Memory ...\n"
     mtd_write write /tmp/breed.bin Bootloader
