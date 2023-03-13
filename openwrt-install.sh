@@ -2,6 +2,7 @@
 
 cp /etc_ro/lighttpd/www/adm/system_command.shtml /tmp/system_command.shtml
 
+/bin/rm /tmp/installer.sh
 /bin/rm /tmp/install.log
 /bin/rm /tmp/checksum_openwrt
 /bin/rm /tmp/md5_openwrt
