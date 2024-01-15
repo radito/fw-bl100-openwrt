@@ -1,5 +1,10 @@
 # Firmware Bolt BL-100
 
+## How To Install
+💾 Install OpenWRT Bolt BL-100/BL-201 Dengan Script
+
+https://radito.github.io/posts/bd5a426b-d8e8-4ab6-a30f-4e0e58664933
+
 ## Checksum
 ```
 fw-dump-original-bl100.bin = aa641371a94e070e069b4a3ed6361b51
